@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/09/19 10:53:37 by Eclipse SUMO Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="input_routes_mod.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="fcd.xml"/>
+        <tripinfo-output value="tripinfos.xml"/>
+    </output>
+
+    <processing>
+        <lateral-resolution value="0.64"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <xml-validation value="never"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="50358"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="mixed.29" depart="40.00" departLane="beg_1" departPos="1.70" departPosLat="-0.11" departSpeed="0.00" departDelay="11.00" arrival="117.00" arrivalLane="end_0" arrivalPos="200.00" arrivalPosLat="0.00" arrivalSpeed="1.17" duration="77.00" routeLength="498.30" waitingTime="1.00" waitingCount="1" stopTime="0.00" timeLoss="13.78" rerouteNo="0" devices="tripinfo_mixed.29 fcd_mixed.29" vType="bicycle" speedFactor="0.34" vaporized=""/>
+    <tripinfo id="mixed.5" depart="7.00" departLane="beg_1" departPos="5.10" departPosLat="0.10" departSpeed="0.00" departDelay="2.00" arrival="218.00" arrivalLane="end_1" arrivalPos="200.00" arrivalPosLat="0.00" arrivalSpeed="13.30" duration="211.00" routeLength="494.90" waitingTime="165.00" waitingCount="1" stopTime="0.00" timeLoss="175.66" rerouteNo="0" devices="tripinfo_mixed.5 fcd_mixed.5" vType="car" speedFactor="1.03" vaporized=""/>
+    <tripinfo id="mixed.0" depart="0.00" departLane="beg_0" departPos="5.10" departPosLat="0.30" departSpeed="0.00" departDelay="0.00" arrival="219.00" arrivalLane="end_0" arrivalPos="200.00" arrivalPosLat="0.00" arrivalSpeed="12.09" duration="219.00" routeLength="494.90" waitingTime="168.00" waitingCount="1" stopTime="0.00" timeLoss="178.33" rerouteNo="0" devices="tripinfo_mixed.0 fcd_mixed.0" vType="car" speedFactor="0.88" vaporized=""/>
+    <tripinfo id="mixed.3" depart="4.00" departLane="beg_0" departPos="5.10" departPosLat="0.26" departSpeed="0.00" departDelay="1.00" arrival="221.00" arrivalLane="end_0" arrivalPos="200.00" arrivalPosLat="0.00" arrivalSpeed="13.71" duration="217.00" routeLength="494.90" waitingTime="167.00" waitingCount="1" stopTime="0.00" timeLoss="180.64" rerouteNo="0" devices="tripinfo_mixed.3 fcd_mixed.3" vType="car" speedFactor="0.99" vaporized=""/>
+    <tripinfo id="mixed.7" depart="10.00" departLane="beg_1" departPos="5.10" departPosLat="-0.40" departSpeed="0.00" departDelay="3.00" arrival="225.00" arrivalLane="end_1" arrivalPos="200.00" arrivalPosLat="0.00" arrivalSpeed="10.91" duration="215.00" routeLength="494.90" waitingTime="162.00" waitingCount="1" stopTime="0.00" timeLoss="171.96" rerouteNo="0" devices="tripinfo_mixed.7 fcd_mixed.7" vType="car" speedFactor="0.85" vaporized=""/>
+    <tripinfo id="mixed.11" depart="15.00" departLane="beg_0" departPos="5.10" departPosLat="0.70" departSpeed="0.00" departDelay="4.00" arrival="226.00" arrivalLane="end_1" arrivalPos="200.00" arrivalPosLat="0.00" arrivalSpeed="13.37" duration="211.00" routeLength="494.90" waitingTime="161.00" waitingCount="2" stopTime="0.00" timeLoss="177.90" rerouteNo="0" devices="tripinfo_mixed.11 fcd_mixed.11" vType="car" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="mixed.1" depart="1.00" departLane="beg_1" departPos="5.10" departPosLat="0.13" departSpeed="0.00" departDelay="0.00" arrival="227.00" arrivalLane="end_0" arrivalPos="200.00" arrivalPosLat="0.00" arrivalSpeed="8.13" duration="226.00" routeLength="494.90" waitingTime="162.00" waitingCount="1" stopTime="0.00" timeLoss="172.89" rerouteNo="0" devices="tripinfo_mixed.1 fcd_mixed.1" vType="car" speedFactor="0.68" vaporized=""/>
+    <tripinfo id="mixed.13" depart="18.00" departLane="beg_0" departPos="5.10" departPosLat="0.62" departSpeed="0.00" departDelay="5.00" arrival="228.00" arrivalLane="end_1" arrivalPos="200.00" arrivalPosLat="0.00" arrivalSpeed="16.08" duration="210.00" routeLength="494.90" waitingTime="160.00" waitingCount="1" stopTime="0.00" timeLoss="178.73" rerouteNo="0" devices="tripinfo_mixed.13 fcd_mixed.13" vType="car" speedFactor="1.17" vaporized=""/>
+    <tripinfo id="mixed.2" depart="4.00" departLane="beg_1" departPos="5.10" departPosLat="0.53" departSpeed="0.00" departDelay="2.00" arrival="229.00" arrivalLane="end_0" arrivalPos="200.00" arrivalPosLat="-0.54" arrivalSpeed="8.06" duration="225.00" routeLength="494.90" waitingTime="160.00" waitingCount="1" stopTime="0.00" timeLoss="170.99" rerouteNo="0" devices="tripinfo_mixed.2 fcd_mixed.2" vType="car" speedFactor="0.66" vaporized=""/>
+    <tripinfo id="mixed.10" depart="13.00" departLane="beg_0" departPos="1.70" departPosLat="0.42" departSpeed="0.00" departDelay="3.00" arrival="229.00" arrivalLane="end_1" arrivalPos="200.00" arrivalPosLat="-1.31" arrivalSpeed="9.72" duration="216.00" routeLength="498.30" waitingTime="152.00" waitingCount="1" stopTime="0.00" timeLoss="164.72" rerouteNo="0" devices="tripinfo_mixed.10 fcd_mixed.10" vType="bicycle" speedFactor="0.71" vaporized=""/>
+</tripinfos>

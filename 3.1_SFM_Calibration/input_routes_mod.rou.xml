@@ -1,0 +1,9 @@
+<routes>
+    <vTypeDistribution id="mixed">
+        <vType id="car" latAlignment="center" probability="0.8" speedDev="0.2" vClass="passenger" />
+        <vType acell="1.975186275552794" carFollowModel="Krauss" decel="3.319122826879675" emergencyDecel="4.290017033790046" id="bicycle" latAlignment="compact" maxSpeed="13.677249608659794" minGap="1.1624927179294566" probability="0.2" speedDev="0.4" tau="0.9763995003110563" vClass="bicycle" />
+    </vTypeDistribution>
+
+    <route edges="beg end" id="r0" />
+    <flow begin="0" departLane="random" departPosLat="random" end="100" id="mixed" number="100" route="r0" type="mixed" />
+</routes>
