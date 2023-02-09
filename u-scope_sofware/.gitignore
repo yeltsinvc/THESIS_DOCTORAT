@@ -1,0 +1,2 @@
+yolov5/weights/*
+!yolov5/weights/download_weights.sh
